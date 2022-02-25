@@ -1,9 +1,9 @@
 menu_row <- tabItem(tabName = "row",
                     fluidRow(
                       column(width = 12,
-                             tabBox(title ="row工作台",width = 12,
+                             tabBox(title ="销售运费工作台",width = 12,
                                     id='tabSet_row',height = '300px',
-                                    tabPanel('sheet1',tagList(
+                                    tabPanel('运费计提规则',tagList(
                                       fluidRow(column(4,box(
                                         title = "操作区域", width = NULL, solidHeader = TRUE, status = "primary",
                                        'sheet1'
@@ -16,7 +16,7 @@ menu_row <- tabItem(tabName = "row",
                                       ))
                                       
                                     )),
-                                    tabPanel('sheet2',tagList(
+                                    tabPanel('销售运费计算',tagList(
                                       fluidRow(column(4,box(
                                         title = "操作区域", width = NULL, solidHeader = TRUE, status = "primary",
                                         'sheet2'
@@ -29,7 +29,7 @@ menu_row <- tabItem(tabName = "row",
                                       
                                     )),
                                     
-                                    tabPanel('sheet3',tagList(
+                                    tabPanel('销售运费结算',tagList(
                                       fluidRow(column(4,box(
                                         title = "操作区域", width = NULL, solidHeader = TRUE, status = "primary",
                                         'sheet3'
@@ -41,7 +41,7 @@ menu_row <- tabItem(tabName = "row",
                                       ))
                                       
                                     )),
-                                    tabPanel('sheet4',tagList(
+                                    tabPanel('同步至ERP',tagList(
                                       fluidRow(column(4,box(
                                         title = "操作区域", width = NULL, solidHeader = TRUE, status = "primary",
                                         'sheet4'

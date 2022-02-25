@@ -1,9 +1,9 @@
 # 设置app标题-----
 
-app_title <-'嘉好数据处理中台V1.0';
+app_title <-'嘉好分析平台V1.0';
 
 # store data into rdbe in the rds database
-app_id <- 'appTpl'
+app_id <- 'jhrds'
 
 #设置数据库链接---
 

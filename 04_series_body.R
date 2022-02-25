@@ -1,9 +1,9 @@
 menu_series<- tabItem(tabName = "series",
                       fluidRow(
                         column(width = 12,
-                               tabBox(title ="series工作台",width = 12,
+                               tabBox(title ="资金平台工作台",width = 12,
                                       id='tabSet_series',height = '300px',
-                                      tabPanel('sheet1',tagList(
+                                      tabPanel('内销自动收款',tagList(
                                         fluidRow(column(4,box(
                                           title = "操作区域", width = NULL, solidHeader = TRUE, status = "primary",
                                           'sheet1'
@@ -16,7 +16,7 @@ menu_series<- tabItem(tabName = "series",
                                         ))
                                         
                                       )),
-                                      tabPanel('sheet2',tagList(
+                                      tabPanel('外贸自动收款',tagList(
                                         fluidRow(column(4,box(
                                           title = "操作区域", width = NULL, solidHeader = TRUE, status = "primary",
                                           'sheet2'
@@ -29,7 +29,7 @@ menu_series<- tabItem(tabName = "series",
                                         
                                       )),
                                       
-                                      tabPanel('sheet3',tagList(
+                                      tabPanel('付款结算及退款处理',tagList(
                                         fluidRow(column(4,box(
                                           title = "操作区域", width = NULL, solidHeader = TRUE, status = "primary",
                                           'sheet3'
@@ -41,7 +41,7 @@ menu_series<- tabItem(tabName = "series",
                                         ))
                                         
                                       )),
-                                      tabPanel('sheet4',tagList(
+                                      tabPanel('资金平台与ERP对账',tagList(
                                         fluidRow(column(4,box(
                                           title = "操作区域", width = NULL, solidHeader = TRUE, status = "primary",
                                           'sheet4'
